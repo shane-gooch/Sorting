@@ -1,4 +1,8 @@
 # TO-DO: Complete the selection_sort() function below
+
+# Big O: 2(n)
+
+
 def selection_sort(arr):
     # loop through n-1 elements
     for i in range(0, len(arr) - 1):
@@ -24,6 +28,8 @@ def selection_sort(arr):
 test_selection = selection_sort([1, 5, 8, 4, 2, 9, 6, 0, 3, 7])
 # print(test_selection)
 # TO-DO:  implement the Bubble Sort function below
+
+# Big O: 2(n)
 
 
 def bubble_sort(arr):
